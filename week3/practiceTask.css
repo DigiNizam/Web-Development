@@ -1,0 +1,21 @@
+.btn1{
+    background-color: bisque;
+}
+
+.btn2{
+    background-color: aqua;
+}
+
+.btn3{
+    background-color: aquamarine;
+}
+
+a:active{
+    color: blue;
+    background-color: rgb(red, green, blue);
+}
+
+a:visited{
+    color: black;
+    background-color: transparent;
+}

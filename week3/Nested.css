@@ -1,0 +1,18 @@
+
+        #box1 {
+            width: 100px; 
+            height: 100px; 
+            position: relative;
+            background-color: rebeccapurple; 
+        }
+
+        #box2 {
+            width: 80px; 
+            height: 80px; 
+            position: absolute;
+            background-color: pink; 
+            bottom: 0%;
+            right: 0%;
+            font-family: 'Honk', system-ui;
+
+        }

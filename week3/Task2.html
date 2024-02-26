@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <style>
+        body {
+            background-color:burlywood;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        .container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 80vh;
+        }
+
+        .content {
+            background-color: white;
+            width: 1000px;
+            display: flex;
+            padding: 20px;
+        }
+
+        .text {
+            margin-left: 20px;
+            max-width: 600px;
+        }
+
+        img {
+            max-width: 100%;
+            height: auto;
+        }
+
+        form {
+            margin-top: 30px;
+        }
+
+        input, textarea {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 10px;
+        }
+
+        button {
+            background-color: rgb(86, 126, 185);
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <center>
+            <h1 style="color: white;">I am Nizam Uddin</h1>
+            <h4 style="color: white;">Data Scientist</h4>
+        </center>
+    </div> 
+    <div class="container">
+        <div class="content">
+            <img src="images.jpg" alt="Profile Image">
+            <div class="text">
+                <h3>About me</h3>
+                <p>
+                   I am Nizam Uddin, I have excels in data analysis, applying statistical techniques to derive actionable insights. With expertise in machine learning and programming, i can enhances decision-making processes, driving innovation and growth.
+                </p>
+            </div>
+        </div>
+    </div>
+    <div class="container" style="margin-top: -20px;">
+        <div class="content">
+            <div class="text">
+                <h3>My Skills</h3>
+                <p>
+                    I have skills in statistics, programming (e.g., Python, R), machine learning, data visualization, and domain knowledge to analyze complex datasets and derive actionable insights for informed decision-making.
+                </p>
+            </div>
+        </div>
+    </div>
+    <div class="container" style="margin-top: -20px;">
+        <div class="content">
+            <img src="Data-science-portfolio-blog.webp" alt="Profile Image">
+            <div class="text">
+                <h3>Projects</h3>
+                <h4>Predictive Maintenance for Manufacturing Equipment:</h4>
+                <p>
+                    Utilizing machine learning algorithms, historical data from sensors is analyzed to predict when equipment failures might occur, allowing proactive maintenance to minimize downtime and improve efficiency.
+                </p>
+            </div>
+        </div>
+    </div>
+    <div class="container" style="margin-top: -20px;">
+        <div class="content">
+            <div class="text">
+                <h3>Contact Me</h3>
+                <form action="#" method="post">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required>
+    
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+    
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" rows="4" required></textarea>
+    
+                    <button type="submit">Submit</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
