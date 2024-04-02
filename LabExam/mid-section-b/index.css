@@ -1,0 +1,16 @@
+.img1{
+    display: flex;
+    justify-items: center;
+    height: 200px;
+    width: 400px;
+    border: 2px solid rebeccapurple;
+}
+#container{
+    background-color: aliceblue;   
+}
+#items{
+    flex-direction: row;
+    border: 1px blue;
+    height:100px ;
+    width:100px ;
+}
